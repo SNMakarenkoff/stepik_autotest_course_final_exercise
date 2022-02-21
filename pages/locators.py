@@ -14,3 +14,9 @@ class ProductPageLocators():
     BOOK_PRICE = (By.CSS_SELECTOR, '.price_color:nth-child(2)')
     BOOK_NAME_CHECK = (By.CSS_SELECTOR, '.alertinner strong')
     BOOK_PRICE_CHECK = (By.CSS_SELECTOR, '.alertinner p strong')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '#messages :nth-child(1) div.alertinner')
+    OPEN_PRODUCT_PAGE = (By.CSS_SELECTOR, '[title="Coders at Work"]')
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
